@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary {
+        @apply rounded-3xl bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 hover:from-cyan-500 hover:via-blue-500 hover:to-purple-500
+    }
+}
