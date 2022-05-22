@@ -4,16 +4,16 @@
 <template>
   <header class="relative">
     <div class="mx-8">
-      <div class="flex justify-between font-semibold mt-6">
-        <div class="flex items-center">
+      <div class="flex items-center font-semibold mt-6">
+        <div class="flex basis-1/4">
           <div class="text-4xl font-extrabold">
             <span class="bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500">
               SharkSurfer
             </span>
           </div>
         </div>
-        <div class="flex items-center">
-          <nav>
+        <div class="flex basis-1/2">
+          <nav class="mx-auto">
             <ul class="flex text-white space-x-6">
               <li>
                 <a class="btn-primary px-5 py-2" href="https://tailwindcss.com/docs/gradient-color-stops">Surf Now</a>
@@ -24,11 +24,14 @@
               <li>
                 <a class="btn-primary px-5 py-2" href="https://tailwindcss.com/docs/space">About Us</a> 
               </li>
+              <li>
+                <a class="btn-primary px-5 py-2" href="https://tailwindcss.com/docs/clear">Our Stores</a> 
+              </li>
             </ul>
           </nav>
         </div>
-        <div class="flex items-center">
-          <nav>
+        <div class="flex basis-1/4">
+          <nav class="ml-auto">
             <ul class="flex space-x-3">
               <li>
                 <a class="text-gray-500 hover:text-gray-800" href="https://tailwindcss.com/docs/content-configuration">
