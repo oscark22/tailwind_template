@@ -2,8 +2,8 @@
 </script>
 
 <template>
-  <body class="antialised bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500">
-    <div class="sticky bg-white p-4">
+  <body class="antialised bg-gradient-to-b from-cyan-500 via-purple-500">
+    <div class="sticky bg-white bg-opacity-85 p-4">
       <div class="mx-8">
         <div class="flex items-center font-semibold">
           <div class="flex basis-1/4">
@@ -55,13 +55,18 @@
       </div>
     </div>
     <div class="relative py-40">
-      <div class="static px-60">
+      <div class="static px-60 mb-32">
         <h1 class="text-center text-white text-7xl tracking-tight font-extrabold mb-6">
           Navigating the web securely hasn't been easier
         </h1>
         <p class="text-center text-white text-3xl tracking-tight font-normal">
           Start navigating without worries now
         </p>
+      </div>
+      <div class="max-w-6xl mx-auto grid-cols-12">
+        <div class="relative row-start-1 col-start-1 col-span-5">
+          Placeholder
+        </div>
       </div>
     </div>
   </body>
