@@ -4,16 +4,16 @@
 <template>
   <body class="antialised bg-gradient-to-b from-cyan-500 via-purple-500">
     <div class="sticky bg-white bg-opacity-85 p-4">
-      <div class="mx-8">
+      <div class="mx-3 md:mx-8">
         <div class="flex items-center font-semibold">
-          <div class="flex basis-1/4">
+          <div class="hidden md:flex basis-1/4">
             <div class="text-4xl font-extrabold">
               <span class="bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500">
                 SharkSurfer
               </span>
             </div>
           </div>
-          <div class="flex basis-1/2">
+          <div class="hidden md:flex basis-1/2">
             <nav class="mx-auto">
               <ul class="flex text-white space-x-6">
                 <li>
@@ -31,7 +31,7 @@
               </ul>
             </nav>
           </div>
-          <div class="flex basis-1/4">
+          <div class="hidden md:flex basis-1/4">
             <nav class="ml-auto">
               <ul class="flex space-x-3">
                 <li>
@@ -50,6 +50,28 @@
                 </li>
               </ul>
             </nav>
+          </div>
+          <div class="md:hidden flex items-center">
+            <div class="flex basis-3/4">
+              <div class="text-4xl font-extrabold">
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500">
+                  SharkSurfer
+                </span>
+              </div>
+            </div>
+            <div class="flex basis-1/4">
+              <nav class="ml-auto">
+                <ul class="flex">
+                  <li>
+                    <a class="text-gray-500 hover:text-gray-800">
+                      <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
         </div>
       </div>
