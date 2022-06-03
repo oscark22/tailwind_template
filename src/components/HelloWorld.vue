@@ -56,16 +56,42 @@
     </div>
     <div class="relative py-40">
       <div class="static px-60 mb-32">
-        <h1 class="text-center text-white text-7xl tracking-tight font-extrabold mb-6">
+        <p class="text-center text-white text-7xl tracking-tight font-extrabold mb-6">
           Navigating the web securely hasn't been easier
-        </h1>
+        </p>
         <p class="text-center text-white text-3xl tracking-tight font-normal">
           Start navigating without worries now
         </p>
       </div>
-      <div class="max-w-6xl mx-auto grid-cols-12">
-        <div class="relative row-start-1 col-start-1 col-span-5">
-          Placeholder
+      <div class="grid grid-cols-12 gap-6 grid-flow-row max-w-6xl mx-auto">
+        <div class="row-start-1 col-span-6">
+          <div class="static p-8 bg-slate-900 bg-opacity-30 rounded-lg">
+            <p class="text-white text-xl font-semibold tracking-tight">
+              The service you need right now
+            </p>
+            <br>
+            <p class="text-white text-md leading-relaxed">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque debitis nostrum provident, exercitationem, quod eos sit non saepe fuga laboriosam omnis expedita aliquam eligendi error impedit dolorem velit? Eligendi, rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo est ipsam impedit, doloribus magni quo nemo esse debitis cupiditate itaque amet odio hic porro illo nobis repudiandae molestiae aut beatae.
+            </p>
+          </div>
+        </div>
+        <div class="row-start-1 col-span-6 row-span-2">
+          <img class="rounded-lg " src="../assets/nature.jpg">
+        </div>
+        <div class="row-start-2 col-span-6 row-span-3">
+          <img class="rounded-lg" src="../assets/pizza.jpg">
+        </div>
+        <div class="row-start-3 col-span-6 row-span-1">
+          <div class="static p-8 bg-slate-900 bg-opacity-30 rounded-lg">
+            <p class="text-white text-xl font-semibold tracking-tight">
+              Another cool text to display
+            </p>
+            <br>
+            <p class="text-white text-md leading-relaxed">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iste fugiat magni modi iusto perferendis nesciunt facere adipisci veritatis ipsa. Reiciendis corporis harum quod temporibus, voluptates sint suscipit magnam blanditiis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque debitis nostrum provident, exercitationem, quod eos sit non saepe fuga laboriosam omnis expedita aliquam eligendi error impedit dolorem velit? Eligendi, rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo est ipsam impedit, doloribus magni quo nemo esse debitis cupiditate itaque amet odio hic porro illo nobis repudiandae molestiae aut beatae.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iste fugiat magni modi iusto perferendis nesciunt facere adipisci veritatis ipsa. Reiciendis corporis harum quod temporibus, voluptates sint suscipit magnam blanditiis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque debitis nostrum provident, exercitationem, quod eos sit non saepe fuga laboriosam omnis expedita aliquam eligendi error impedit dolorem velit? Eligendi, rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo est ipsam impedit, doloribus magni quo nemo esse debitis cupiditate itaque amet odio hic porro illo nobis repudiandae molestiae aut beatae.
+            </p>
+          </div>
         </div>
       </div>
     </div>
