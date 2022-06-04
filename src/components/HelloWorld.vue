@@ -4,16 +4,16 @@
 <template>
   <body class="antialised bg-gradient-to-b from-cyan-500 via-purple-500">
     <div class="sticky bg-white bg-opacity-85 p-4">
-      <div class="mx-3 md:mx-8">
+      <div class="mx-3 lg:mx-8">
         <div class="flex items-center font-semibold">
-          <div class="hidden md:flex basis-1/4">
+          <div class="hidden lg:flex basis-2/12">
             <div class="text-4xl font-extrabold">
               <span class="bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500">
                 SharkSurfer
               </span>
             </div>
           </div>
-          <div class="hidden md:flex basis-1/2">
+          <div class="hidden lg:flex basis-8/12">
             <nav class="mx-auto">
               <ul class="flex text-white space-x-6">
                 <li>
@@ -31,7 +31,7 @@
               </ul>
             </nav>
           </div>
-          <div class="hidden md:flex basis-1/4">
+          <div class="hidden lg:flex basis-2/12">
             <nav class="ml-auto">
               <ul class="flex space-x-3">
                 <li>
@@ -51,7 +51,7 @@
               </ul>
             </nav>
           </div>
-          <div class="md:hidden flex items-center">
+          <div class="lg:hidden flex flex-1 items-center">
             <div class="flex basis-3/4">
               <div class="text-4xl font-extrabold">
                 <span class="bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500">
@@ -76,9 +76,9 @@
         </div>
       </div>
     </div>
-    <div class="relative py-40">
-      <div class="static px-60 mb-32">
-        <p class="text-center text-white text-7xl tracking-tight font-extrabold mb-6">
+    <div class="relative py-20 md:py-40">
+      <div class="static mx-4 md:mx-20 lg:mx-36 mb-32">
+        <p class="text-center text-white text-5xl md:text-7xl tracking-tight font-extrabold mb-6">
           Navigating the web securely hasn't been easier
         </p>
         <p class="text-center text-white text-3xl tracking-tight font-normal">
