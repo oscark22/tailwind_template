@@ -77,7 +77,7 @@
       </div>
     </div>
     <div class="relative py-20 md:py-40">
-      <div class="static mx-4 md:mx-20 lg:mx-36 mb-32">
+      <div class="static mx-4 md:mx-20 lg:mx-36 mb-20 md:mb-32">
         <p class="text-center text-white text-5xl md:text-7xl tracking-tight font-extrabold mb-6">
           Navigating the web securely hasn't been easier
         </p>
@@ -85,8 +85,8 @@
           Start navigating without worries now
         </p>
       </div>
-      <div class="grid grid-cols-12 gap-6 grid-flow-row max-w-6xl mx-3 md:mx-auto">
-        <div class="row-start-2 md:row-start-1 col-span-12 md:col-span-6">
+      <div class="grid grid-cols-12 gap-6 grid-flow-row max-w-6xl mx-3 md:mx-8 lg:mx-auto">
+        <div class="row-start-2 lg:row-start-1 col-span-12 lg:col-span-6 lg:row-span-1">
           <div class="static p-8 bg-slate-900 bg-opacity-30 rounded-lg">
             <p class="text-white text-xl font-semibold tracking-tight">
               The service you need right now
@@ -97,13 +97,13 @@
             </p>
           </div>
         </div>
-        <div class="row-start-1 md:row-start-1 col-span-12 md:col-span-6 md:row-span-2">
+        <div class="row-start-1 lg:row-start-1 col-span-12 lg:col-span-6 lg:row-span-2">
           <img class="rounded-lg " src="../assets/nature.jpg">
         </div>
-        <div class="row-start-3 md:row-start-2 col-span-12 md:col-span-6 md:row-span-3">
+        <div class="row-start-3 lg:row-start-2 col-span-12 lg:col-span-6 lg:row-span-3">
           <img class="rounded-lg" src="../assets/pizza.jpg">
         </div>
-        <div class="row-start-4 md:row-start-3 col-span-12 md:col-span-6 md:row-span-1">
+        <div class="row-start-4 lg:row-start-3 col-span-12 lg:col-span-6 lg:row-span-1">
           <div class="static p-8 bg-slate-900 bg-opacity-30 rounded-lg">
             <p class="text-white text-xl font-semibold tracking-tight">
               Another cool text to display
